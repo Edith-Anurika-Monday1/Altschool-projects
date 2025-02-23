@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>form</title>
+        <style>
+            label{display: flex;
+            margin-bottom: 2%;}
+            .option{display: block;}
+            input{display: flex;
+            height: 55px;
+        width: 100%;background-color: rgb(232, 232, 236);
+        color:black;
+    border-radius: 10px;
+border: none;}
+select{margin-bottom: 5%;
+margin-top: 0%;}
+.option{margin-bottom: 2%;}
+option{background-color: rgb(213, 213, 241);
+border: none;}
+html{background-color: rgb(240, 238, 235);}
+button{display:block;
+width: 50%;
+margin-top: 4%;
+background-color:blue;
+color:whitesmoke;
+border: none;
+border-radius: 2px;}
+select{border: none;}
+        </style>
+        </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="nav.html">HOME</a>
+                </li>
+                <li>
+                    <a href="index.html">PROFILE</a>
+                </li>
+                <li>
+                    <a href="form.html">FORM</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>
+         Alt___
+        </h1>
+        <h1>
+         School
+        </h1>
+        <h6>
+Already an altschooler?<a href="https://portal.altschoolafrica.com/auth/create-account">Sign in</a>
+        </h6>
+        <h3>Sign up</h3>
+            <p>Take the next steps to apply at Altschool Africa</p>
+        <form action="get">
+            <label for="First-name" name="First-name">First Name</label>
+            <input id="First-name" type="text" placeholder="Enter first name">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" type="text" placeholder="Enter last name" required>
+                <p class="option">Gender</p>
+           <select>
+            <option>select gender</option>
+            <option>male</option>
+            <option>Female</option>
+        </select>
+           <label for="DOB">
+            Date of birth
+            </label>
+            <input type="date" id="DOB">
+        <label for="email">Email Adress</label>
+        <input id="email" type="email" placeholder="enter your email address" required> 
+        <label id="phone-number">phone number</label>
+        <input id="phone-number" type="number" placeholder="09068402368" minlength="11" maxlength="11" required>
+    <p class="option"> Country</p>
+     <select>
+        <option>select your Country</option>
+        <option>Algeria</option>
+        <option>Burkina</option>
+        <option>Cameroon</option>
+        <option>Ghana</option>
+        <option>Kenya</option>
+        <option>Nigeria</option>
+        <option>Zimbabwe</option>
+     </select>
+     <label for="state">state</label>
+     <input id="state" type="text" placeholder="Enter your state of residence" required>
+     <label for="password">Password</label>
+     <input id="password" type="password" placeholder="password" required>
+     <label for="password2">Confirm Password</label>
+     <input type="password" placeholder="Confirm password" required>
+     <p class="option">How did you hear about us?</p>
+     <select>
+        <option>Referral</option>
+        <option>Social media</option>
+        <option>Family and friends</option>
+     </select> 
+    </form>
+    </body>
+    <footer>By clicking continue, I agree to  <a href="index.html"> Terms of Use</a> and acknowledge that I have read the <a href="nav.html">Privacy Policy</a></a>.</footer>
+    <button>submit</button>
+</html>

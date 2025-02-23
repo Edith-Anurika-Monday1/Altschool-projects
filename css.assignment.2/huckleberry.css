@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top{
+    background-color: white;
+padding: 40px 120px 50px 90px;
+}
+
+.wealth-p{
+    width: 800px;
+height: 312px;
+top: px;
+left: 240px;
+border-bottom-width: 8px;
+background: #FFFFFF;
+border-bottom: 8px solid #999999;
+position: relative;
+}
+.wealth{
+    width: 1280px;
+height: 450px;
+top: 382px;
+background-color: #666666;
+position: relative;
+}
+.businesss{
+    width: 752px;
+height: 120px;
+top: 546px;
+left: 264px;
+color: #000000;
+padding: 70px;
+}
+.bus{
+    width: 752px;
+height: 60px;
+top: 682px;
+left: 264px;
+font-family: Lato;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #000000;
+padding-left: 70px;
+''
+}
